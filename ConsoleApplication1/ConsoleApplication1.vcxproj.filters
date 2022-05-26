@@ -15,9 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="Pixel.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -40,6 +37,9 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Morph.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="KMS.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

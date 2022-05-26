@@ -162,7 +162,7 @@
     <ClCompile Include="Filter.cpp" />
     <ClCompile Include="Geometry.cpp" />
     <ClCompile Include="ImageAnalysis.cpp" />
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="KMS.cpp" />
     <ClCompile Include="Morph.cpp" />
     <ClCompile Include="Pixel.cpp" />
     <ClCompile Include="Util.cpp" />
