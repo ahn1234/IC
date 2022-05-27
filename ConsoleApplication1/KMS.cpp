@@ -18,7 +18,7 @@ bool compareContourAreas(vector<Point> contour1, vector<Point> contour2) {
 //    }
 //} comp;
 int main() {
-    Mat image = imread("identityCard2.jpg", 1);
+    Mat image = imread("identityCard1.jpg", 1);
     Mat original;
     Mat BoxCard;
     Mat Expansion;
