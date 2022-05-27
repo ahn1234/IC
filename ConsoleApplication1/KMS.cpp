@@ -10,7 +10,13 @@ bool compareContourAreas(vector<Point> contour1, vector<Point> contour2) {
 	double j = fabs(contourArea(Mat(contour2)));
 	return (i > j);
 }
-
+//struct str {
+//    bool operator() (Point2f a, Point2f b) {
+//        if (a.y != b.y)
+//            return a.y < b.y;
+//        return a.x <= b.x;
+//    }
+//} comp;
 int main() {
     Mat image = imread("identityCard2.jpg", 1);
     Mat original;
@@ -76,11 +82,15 @@ int main() {
     Point2f src_p[4], dst_p[4];
     int j = 0;
     for (Point i : contours_approx) {
-        cout << i  << "" << endl;
         src_p[j] = i;
         j++;
     }
-    
+    //sort(src_p, src_p + 4, comp);
+
+    for (int i = 0; i < 4; i++)
+    {
+        cout << src_p[i] << endl;
+    }
     Point2f temp;
     temp = src_p[2];
     src_p[2] = src_p[3];
